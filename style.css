@@ -1,0 +1,25 @@
+/* box model fix start*/
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+/* box model fix end*/
+
+body {
+    background-color: beige;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: monospace;
+}
+
+h1 {
+    background-color:brown;
+    color:white;
+    text-align: center;
+}
