@@ -23,3 +23,22 @@ h1 {
     color:white;
     text-align: center;
 }
+
+a {
+    font-size: 14pt;
+}
+
+.horizontally-centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.brown-border {
+    border-style: solid;
+    border-color: brown;
+}
+
+img.brown-border {
+    border-width: 5px;
+}
